@@ -5,6 +5,8 @@ Merupakan tutorial-tutorial yang pernah saya gunakan
 Cara Menulis di GitHub : https://help.github.com/articles/markdown-basics/
 ```
 
+# Website Penting
+
 # Tutorial UBUNTU
 
 http://www.unixmen.com/install-lemp-server-nginx-mysql-mariadb-php-phpmyadmin-ubuntu-14-1014-0413-10/
@@ -44,4 +46,9 @@ http://www.youtube.com/attribution_link?a=WkXjCu-8U6w&u=%2Fwatch%3Fv%3DobrHov9Xf
 ####Woff to Ttf
 ```
 https://andrewsun.com/services/woffer-convert-woff-fonts/
+```
+
+#Others
+```
+Share Localhost dengan ngrok : http://rizkylab.com/share-localhost-ke-public-menggunakan-ngrok/
 ```
