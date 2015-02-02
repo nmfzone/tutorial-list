@@ -25,14 +25,14 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
-####Laravel :
+#### Laravel :
 ```
   location / {
         try_files $uri $uri/ /index.php?$query_string;
   }
 ```
 
-####Codeigniter :
+#### Codeigniter :
 ```
   location / {
         try_files $uri $uri/ @ci_index;
@@ -49,21 +49,29 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 http://stackoverflow.com/questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
 ```
 
-# Tutorial Windows
-
 # Tutorial Website
 http://www.youtube.com/attribution_link?a=WkXjCu-8U6w&u=%2Fwatch%3Fv%3DobrHov9XfRk%26feature%3Dshare
 ### Laravel
 ```
 a
 ```
-### NodeJs
+### Ruby on Rails
+```
+b
+```
+### JavaScript
+#### NodeJs
 ```
 http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
+http://rizkylab.com/deploy-node-js-on-heroku/
 ```
-### AngularJs
+#### AngularJs
 ```
 c
+```
+#### EXTJs
+```
+http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 ```
 ### MongoDB
 ```
@@ -71,8 +79,15 @@ http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
 ```
 ### Next? 
 ```
-e
+d
 ```
+
+# DesktopApps
+### Java
+```
+test
+```
+
 # Fonts
 ####Woff to Ttf
 ```
