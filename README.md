@@ -13,14 +13,14 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
-Laravel :
+###Laravel :
 ```
   location / {
         try_files $uri $uri/ /index.php?$query_string;
   }
 ```
 
-Codeigniter :
+###Codeigniter :
 ```
   location / {
         try_files $uri $uri/ @ci_index;
