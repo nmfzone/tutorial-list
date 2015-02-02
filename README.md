@@ -1,7 +1,9 @@
 # tutorial-list
 Merupakan tutorial-tutorial yang pernah saya gunakan
 
-`Cara Menulis di GitHub : https://help.github.com/articles/markdown-basics/`
+```
+Cara Menulis di GitHub : https://help.github.com/articles/markdown-basics/
+```
 
 # Tutorial UBUNTU
 
