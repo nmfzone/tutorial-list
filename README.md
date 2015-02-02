@@ -6,6 +6,10 @@ Cara Menulis di GitHub : https://help.github.com/articles/markdown-basics/
 ```
 
 # Website Penting
+```
+##### VPS
+https://koding.com/IDE/koding-vm-0/my-workspace
+```
 
 # Tutorial UBUNTU
 
@@ -35,6 +39,12 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
   location @ci_index{
 	rewrite ^(.*) /index.php?$1 last;
   }
+```
+
+# Tutorial Android
+#### Install GoogleApps di GenyMotions
+```
+http://stackoverflow.com/questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
 ```
 
 # Tutorial Windows
