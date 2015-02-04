@@ -5,7 +5,7 @@ Merupakan tutorial-tutorial yang pernah saya gunakan
 Cara Menulis di GitHub : https://help.github.com/articles/markdown-basics/
 Cara Remote Github dengan Command Line :
  - git init
- - git add answer //disini answer merupakan folder yg ingin di upload
+ - git add answer atau git add * //disini answer merupakan folder yg ingin di upload atau untuk add semuanya
  - git commit -m "First Commit" //Ini untuk commit file ke repo lokal
  - git remote add origin https://github.com/nmfzone/yourproject.git //project yg akan di remote
  - git push -u origin master //ini untuk submit repo lokal ke repo online github
