@@ -42,19 +42,25 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
 Setting Environment di Ubuntu :
-	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka untuk menambahkan environment yaitu dengan menambahkan perintah export di .profile (/home/NAMA_USER/.profile) :
+	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka
+	untuk menambahkan environment yaitu dengan menambahkan perintah export
+	di .profile (/home/NAMA_USER/.profile) :
 	
 			export PATH=$HOME/.composer/vendor/bin:$PATH
 	
 		kemudian jalankan perintah ". ~/.profile" (tanpa tanda petik)
 		kemudian cek dengan perintah "echo $PATH", kalau sudah muncul berarti berhasil :)
 	
-	- Namun jika dalam keadaan sudah login (sudo su), maka lokasi environment yaitu berada di /etc/environment , maka untuk menambahkan environment tinggal tambahkan saja di dalam PATH yang ada disitu. Khusus untuk JAVA (maybe), berikan tambahkan line khusus dibawah PATH yaitu JAVA_HOME..kemudian berikan value di belakangnya :
+	- Namun jika dalam keadaan sudah login (sudo su), maka lokasi environment yaitu berada di
+	/etc/environment , maka untuk menambahkan environment tinggal tambahkan saja di dalam PATH
+	yang ada disitu. Khusus untuk JAVA (maybe), berikan tambahkan line khusus dibawah PATH yaitu
+	JAVA_HOME..kemudian berikan value di belakangnya :
 	
 			PATH="bla bla bla"
 			JAVA_HOME="JAVA_PATH" (ganti JAVA path dengan lokasi JAVA misalnya /usr/lib/jvm/java-8-openjdk-amd64
 			
-		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah "source /etc/environment" (lagi-lagi tanpa tanda petik)
+		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah
+		"source /etc/environment" (lagi-lagi tanpa tanda petik)
 ```
 
 #### Laravel :
