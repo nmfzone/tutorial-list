@@ -41,6 +41,30 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
+Install Vagrant di Ubuntu :
+	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
+	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
+	di directory /var/www/html
+	- Kemudian berpindah ke direktory tersebut (cd Project)
+	- Kemudian download vagrant dengan menggunakan perintah :
+		vagrant box add laravel/homestead
+	- Selagi menunggu download selesai, kita beralih misal ke terminal yang lain. Masih di directory
+	yang sama seperti tadi. Ketikkan perintah :
+		git clone git@github.com:laravel/homestead.git Homestead
+	- Kemudian, setelah selesai mendownload, ketikkan perintah :
+		homestead init
+		ssh-keygen -t rsa -C "youremail@email.com"
+	- Setelah itu beralihlah (defaultnya) ke ~/.homestead kemudian buka Homestead.yaml. Kemudian
+	atur authorize, keys, folders dan sites.
+	- Kemudian beralih ke direktori awal yaitu direktori project anda tadi
+	(cd /var/www/html/Project) kemudian ketikkan perintah :
+		vagrant init
+	- Setelah itu buka Vagrantfile (vim Vagrantfile), setelah itu rubah :
+		dari >> config.vm.box = "base";
+		menjadi >> config.vm.box = "laravel/homestead";
+	- Done, terakhir tinggal menghidupkan vagrant yaitu dengan perintah :
+		vagrant up
+
 Setting Environment di Ubuntu :
 	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka
 	untuk menambahkan environment yaitu dengan menambahkan perintah export
