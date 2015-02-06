@@ -30,7 +30,7 @@ https://dashboard.heroku.com/apps
 ```
 
 # Tutorial UBUNTU
-
+```
 http://www.unixmen.com/install-lemp-server-nginx-mysql-mariadb-php-phpmyadmin-ubuntu-14-1014-0413-10/
 
 http://blog.andzhar.com/2014/11/12/125234/hhvm-nginx-di-ubuntu-server-14-04/
@@ -40,6 +40,22 @@ http://blog.andzhar.com/2014/12/11/152615/instalasi-composer-di-hhvm/
 http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
+
+Setting Environment di Ubuntu :
+	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka untuk menambahkan environment yaitu dengan menambahkan perintah export di .profile (/home/NAMA_USER/.profile) :
+	
+			export PATH=$HOME/.composer/vendor/bin:$PATH
+	
+		kemudian jalankan perintah ". ~/.profile" (tanpa tanda petik)
+		kemudian cek dengan perintah "echo $PATH", kalau sudah muncul berarti berhasil :)
+	
+	- Namun jika dalam keadaan sudah login (sudo su), maka lokasi environment yaitu berada di /etc/environment , maka untuk menambahkan environment tinggal tambahkan saja di dalam PATH yang ada disitu. Khusus untuk JAVA (maybe), berikan tambahkan line khusus dibawah PATH yaitu JAVA_HOME..kemudian berikan value di belakangnya :
+	
+			PATH="bla bla bla"
+			JAVA_HOME="JAVA_PATH" (ganti JAVA path dengan lokasi JAVA misalnya /usr/lib/jvm/java-8-openjdk-amd64
+			
+		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah "source /etc/environment" (lagi-lagi tanpa tanda petik)
+```
 
 #### Laravel :
 ```
@@ -66,7 +82,9 @@ http://stackoverflow.com/questions/20121883/how-to-install-google-play-services-
 ```
 
 # Tutorial Website
+```
 http://www.youtube.com/attribution_link?a=WkXjCu-8U6w&u=%2Fwatch%3Fv%3DobrHov9XfRk%26feature%3Dshare
+```
 ### Laravel
 ```
 a
