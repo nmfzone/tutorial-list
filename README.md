@@ -157,6 +157,7 @@ test
 Menghilangkan dan atau menambah context menu (saat klik kanan) :
 http://www.howtogeek.com/howto/windows-vista/add-any-application-to-the-desktop-right-click-menu-in-vista/
 http://www.howtogeek.com/howto/windows-vista/how-to-clean-up-your-messy-windows-context-menu/
+http://www.thewindowsclub.com/remove-click-context-menu-items-editors
 ```
 
 # Fonts
