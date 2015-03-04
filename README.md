@@ -2,7 +2,9 @@
 Merupakan tutorial-tutorial yang pernah saya gunakan
 
 ```
-Cara Menulis di GitHub : https://help.github.com/articles/markdown-basics/
+Cara Menulis di GitHub :
+ - https://help.github.com/articles/markdown-basics/
+ - https://github.com/jadejs/jade/blob/gh-pages/src/pages/tutorial.jade
 Cara Remote Github dengan Command Line :
  - git init
  - git add answer atau git add * //disini answer merupakan folder yg ingin di upload atau untuk add semuanya
