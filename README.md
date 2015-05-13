@@ -43,6 +43,17 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
+Install Oh-My-Zsh on ubuntu 14.04 :
+	- First of all, download zsh first with command "sudo apt-get install zsh"
+	- Then "sudo apt-get install git", because it need download source from github
+	- Then see https://github.com/robbyrussell/oh-my-zsh to Install (just the install)
+	- And then run command "chsh -s `which zsh`"
+	- Ok, now your Zsh is done, just need to change the theme, maybe to "agnoster" in "~/.zshrc"
+	- If you getting font error, try
+		cd ~/.oh-my-zsh/themes/
+		git checkout  d6a36b1 agnoster.zsh-theme
+	 Or try installing the fonts (DeJavu, or other, just try https://github.com/nmfzone/fonts)
+
 Install Vagrant di Ubuntu :
 	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
 	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
