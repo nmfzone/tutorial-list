@@ -106,12 +106,16 @@ Setting Environment di Ubuntu :
 #### This to do after Installing Elementary OS :
 	- Download exstra plugin to play .mp3/.mp4
 		$ sudo apt-get install ubuntu-restricted-extras
+	- Install NginX and MySQL
+		$ sudo apt-get install nginx
+		$ sudo apt-get install mysql-server mysql-client
 	- Install PHP, NPM, NodeJs, git, composer
-		PHP : 
+		PHP & Nginx : 
 			$ sudo add-apt-repository ppa:ondrej/php5
-			$ sudo apt-get install nginx php5-fpm php5-cli php5-curl
+			$ sudo apt-get install php5-fpm php5-cli php5-curl
 		NPM : 
 			$ sudo apt-get install npm
+			$ sudo ln -s /usr/bin/nodejs /usr/bin/node (command : node / nodejs)
 		Composer :
 			$ curl -sS https://getcomposer.org/installer | php
 			$ sudo mv composer.phar /usr/bin/composer
