@@ -51,8 +51,8 @@ Install Oh-My-Zsh on ubuntu 14.04 :
 	- Ok, now your Zsh is done, just need to change the theme, maybe to "agnoster" in "~/.zshrc"
 	- If you getting font error, try
 		cd ~/.oh-my-zsh/themes/
-		git checkout  d6a36b1 agnoster.zsh-theme
-	 Or try installing the fonts (DeJavu, or other, just try https://github.com/nmfzone/fonts)
+		git checkout d6a36b1 agnoster.zsh-theme
+	 Or try installing the fonts (All font in >>, just try https://github.com/nmfzone/fonts)
 
 Install Vagrant di Ubuntu :
 	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
@@ -98,6 +98,40 @@ Setting Environment di Ubuntu :
 			
 		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah
 		"source /etc/environment" (lagi-lagi tanpa tanda petik)
+```
+
+# Tutorial ElementaryOS
+```
+
+#### This to do after Installing Elementary OS :
+	- Download exstra plugin to play .mp3/.mp4
+		$ sudo apt-get install ubuntu-restricted-extras
+	- Install PHP, NPM, NodeJs, git, composer
+		PHP : 
+			$ sudo add-apt-repository ppa:ondrej/php5
+			$ sudo apt-get install nginx php5-fpm php5-cli php5-curl
+		NPM : 
+			$ sudo apt-get install npm
+		Composer :
+			$ curl -sS https://getcomposer.org/installer | php
+			$ sudo mv composer.phar /usr/bin/composer
+		Git : 
+			$ sudo apt-get install git
+	- Install Java
+		$ sudo add-apt-repository ppa:webupd8team/java
+		$ sudo apt-get install oracle-java8-installer
+		$ sudo apt-get install oracle-java8-set-default
+
+#### Shortcut Keys
+    Ctrl + T - Open a new tab in Files
+    Ctrl + Alt + T – Starts terminal
+    Alt + Tab - Switch between apps that are opened
+    Superkay + A – Show all windows on every desktop
+    Superkey + W – Show all windows on the current desktop
+    Superkey + Tab – Switch between desktops (in order they are used)
+    Superkey + directional arrows – Switch between desktops
+    Superkey + 1,2,3,4,5 … – Switch between desktops
+
 ```
 
 #### Laravel :
