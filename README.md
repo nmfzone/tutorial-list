@@ -43,7 +43,7 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
-Install Oh-My-Zsh on ubuntu 14.04 :
+#### Install Oh-My-Zsh on ubuntu 14.04 :
 	- First of all, download zsh first with command "sudo apt-get install zsh"
 	- Then "sudo apt-get install git", because it need download source from github
 	- Then see https://github.com/robbyrussell/oh-my-zsh to Install (just the install)
@@ -54,7 +54,7 @@ Install Oh-My-Zsh on ubuntu 14.04 :
 		git checkout d6a36b1 agnoster.zsh-theme
 	 Or try installing the fonts (All font in >>, just try https://github.com/nmfzone/fonts)
 
-Install Vagrant di Ubuntu :
+#### Install Vagrant di Ubuntu :
 	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
 	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
 	di directory /var/www/html
@@ -78,7 +78,7 @@ Install Vagrant di Ubuntu :
 	- Done, terakhir tinggal menghidupkan vagrant yaitu dengan perintah :
 		vagrant up
 
-Setting Environment di Ubuntu :
+#### Setting Environment di Ubuntu :
 	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka
 	untuk menambahkan environment yaitu dengan menambahkan perintah export
 	di .profile (/home/NAMA_USER/.profile) :
@@ -98,6 +98,14 @@ Setting Environment di Ubuntu :
 			
 		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah
 		"source /etc/environment" (lagi-lagi tanpa tanda petik)
+		
+#### How to Add New Webserver in NginX
+	$ sudo mkdir -p /var/www/example.com/html
+	$ sudo chown -R $USER:$USER /var/www/example.com/html
+	$ sudo chmod -R 755 /var/www
+	$ sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/example.com
+	$ sudo nano /etc/nginx/sites-available/example.com
+	$ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 ```
 
 # Tutorial ElementaryOS
