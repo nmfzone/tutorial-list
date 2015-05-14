@@ -134,6 +134,11 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 			$ sudo mv composer.phar /usr/bin/composer
 		Git : 
 			$ sudo apt-get install git
+	- Customize Terminal
+		- Enable 256 color xterm :
+			$ sudo apt-get install ncurses-term
+			$ vim ~/.bashrc OR $ vim ~/.zshrc
+			add export TERM="xterm-256color"
 	- Install Java
 		$ sudo add-apt-repository ppa:webupd8team/java
 		$ sudo apt-get install oracle-java8-installer
