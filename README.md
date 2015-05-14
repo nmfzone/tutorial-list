@@ -113,6 +113,10 @@ Setting Environment di Ubuntu :
 		PHP & Nginx : 
 			$ sudo add-apt-repository ppa:ondrej/php5
 			$ sudo apt-get install php5-fpm php5-cli php5-curl
+		PHP Mcrypt (for Laravel or other) :
+			$ sudo apt-get install mcrypt php5-mcrypt
+			$ sudo php5enmod mcrypt
+			$ sudo service nginx restart
 		NPM : 
 			$ sudo apt-get install npm
 			$ sudo ln -s /usr/bin/nodejs /usr/bin/node (command : node / nodejs)
