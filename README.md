@@ -106,6 +106,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/example.com
 	$ sudo nano /etc/nginx/sites-available/example.com
 	$ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+	$ sudo nano /etc/hosts (add new domain)
 ```
 
 # Tutorial ElementaryOS
