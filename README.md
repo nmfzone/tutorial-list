@@ -134,6 +134,11 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 			$ sudo mv composer.phar /usr/bin/composer
 		Git : 
 			$ sudo apt-get install git
+	- Install Python and Pip
+		$ sudo add-apt-repository ppa:fkrull/deadsnakes
+		$ sudo apt-get install python3.3
+		$ sudo apt-get install python3.4
+		$ sudo apt-get install python-pip
 	- Customize Terminal
 		- Enable 256 color xterm :
 			$ sudo apt-get install ncurses-term
