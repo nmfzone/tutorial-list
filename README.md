@@ -209,6 +209,8 @@ a
 ```
 ### Ruby on Rails
 ```
+	https://gorails.com/setup/ubuntu/14.04
+	
 	- Install RVM (you must Install cURL first) :
 		$ gpg --keyserver hkp://keys.gnupg.net --recv-keys
 		$ \curl -L https://get.rvm.io | bash -s stable
@@ -230,12 +232,26 @@ a
 		$ rvm rubygems current
 	- Install Rails
 		$ gem install rails or $ gem install rails -v 4.2.1 (to install specific version)
+		
+	- Creating new Apps :
+		Using MySql :
+			$ rails new myapp -d mysql
+			$ subl config/database.yml (edit database credentials)
+			$ rake db:create
+			$ rails server
+		Using PostgreeSql :
+			$ rails new myapp -d postgresql
+			$ subl config/database.yml (edit database credentials)
+			$ rake db:create
+			$ rails server
 ```
 ### JavaScript
 #### NodeJs
 ```
 http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
 http://rizkylab.com/deploy-node-js-on-heroku/
+	- Install MongoDB (mongoose) untuk NodeJs :
+		$ sudo npm install mongoose
 ```
 #### AngularJs
 ```
@@ -249,6 +265,10 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 #### MongoDB
 ```
 http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
+	$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+	$ echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+	$ sudo apt-get update
+	$ sudo apt-get install mongodb-org mongodb-org-server
 ```
 #### Postgree SQL
 ```
@@ -257,6 +277,11 @@ http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
 	$ sudo apt-get update
 	$ sudo apt-get install postgresql-common
 	$ sudo apt-get install postgresql-9.3 libpq-dev
+	
+	Untuk setup username dan Password :
+	$ sudo -u postgres createuser your_username -s
+	$ sudo -u postgres psql
+	$ postgres=# \password your_username
 ```
 ### Next? 
 ```
