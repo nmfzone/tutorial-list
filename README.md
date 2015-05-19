@@ -250,6 +250,12 @@ a
 ```
 http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
 http://rizkylab.com/deploy-node-js-on-heroku/
+
+	- Install NodeJS
+		$ sudo apt-get install python-software-properties
+		$ sudo apt-add-repository ppa:chris-lea/node.js
+		$ sudo apt-get update
+		$ sudo apt-get install nodejs
 	- Install MongoDB (mongoose) untuk NodeJs :
 		$ sudo npm install mongoose
 ```
