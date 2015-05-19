@@ -209,7 +209,27 @@ a
 ```
 ### Ruby on Rails
 ```
-b
+	- Install RVM (you must Install cURL first) :
+		$ gpg --keyserver hkp://keys.gnupg.net --recv-keys
+		$ \curl -L https://get.rvm.io | bash -s stable
+		$ cd ~/.rvm/archieve
+		$ tar -xvzf your_rvm_version.tgz
+		$ cd your_rvm_version
+		$ ./install
+		$ source ~/.rvm/scripts/rvm
+		$ rvm requirements
+	- Add to your terminal (~/.bashrc or ~/.zshrc or ~/.bash_profile)
+		export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+		[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+	- Install Ruby
+		$ rvm install ruby or $ rvm install 2.2.2
+		$ rvm use ruby --default (maybe will not work, you may use another way)
+			$ rvm list (see your ruby version that have been installed)
+			$ rvm alias create default ruby-2.2.2 (use ruby version 2.2.2 for default)
+	- Install Gems
+		$ rvm rubygems current
+	- Install Rails
+		$ gem install rails or $ gem install rails -v 4.2.1 (to install specific version)
 ```
 ### JavaScript
 #### NodeJs
@@ -225,9 +245,18 @@ c
 ```
 http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 ```
-### MongoDB
+### Database
+#### MongoDB
 ```
 http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
+```
+#### Postgree SQL
+```
+	$ sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
+	$ wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+	$ sudo apt-get update
+	$ sudo apt-get install postgresql-common
+	$ sudo apt-get install postgresql-9.3 libpq-dev
 ```
 ### Next? 
 ```
