@@ -43,17 +43,6 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 
-#### Install Oh-My-Zsh on ubuntu 14.04 :
-	- First of all, download zsh first with command "sudo apt-get install zsh"
-	- Then "sudo apt-get install git", because it need download source from github
-	- Then see https://github.com/robbyrussell/oh-my-zsh to Install (just the install)
-	- And then run command "chsh -s `which zsh`"
-	- Ok, now your Zsh is done, just need to change the theme, maybe to "agnoster" in "~/.zshrc"
-	- If you getting font error, try
-		cd ~/.oh-my-zsh/themes/
-		git checkout d6a36b1 agnoster.zsh-theme
-	 Or try installing the fonts (All font in >>, just try https://github.com/nmfzone/fonts)
-
 #### Install Vagrant di Ubuntu :
 	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
 	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
@@ -99,6 +88,17 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah
 		"source /etc/environment" (lagi-lagi tanpa tanda petik)
 		
+#### Install Oh-My-Zsh on ubuntu 14.04 :
+	- First of all, download zsh first with command "sudo apt-get install zsh"
+	- Then "sudo apt-get install git", because it need download source from github
+	- Then see https://github.com/robbyrussell/oh-my-zsh to Install (just the install)
+	- And then run command "chsh -s `which zsh`"
+	- Ok, now your Zsh is done, just need to change the theme, maybe to "agnoster" in "~/.zshrc"
+	- If you getting font error, try
+		cd ~/.oh-my-zsh/themes/
+		git checkout d6a36b1 agnoster.zsh-theme
+	 Or try installing the fonts (All font in >>, just try https://github.com/nmfzone/fonts)
+		
 #### How to Add New Webserver in NginX
 	$ sudo mkdir -p /var/www/example.com/html
 	$ sudo chown -R $USER:$USER /var/www/example.com/html
@@ -107,6 +107,15 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo nano /etc/nginx/sites-available/example.com
 	$ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 	$ sudo nano /etc/hosts (add new domain)
+	
+#### CHEATS SHEET *UNIX
+	- tar -xvzf nama_file.tgz  => Extract .tgz
+	- sudo su  => Masuk sebagai root (tapi sebaiknya jangan, lebih baik setiap jalankan command tambahkan sudo)
+	- ls -la  => Melihat ini List directory
+	- chmod -R 777 nama_folder / chmod 777 nama_file  => Merubah hak akses file
+	- ln -s nama_folder_asal nama_folder_tujuan => Membuat symbolink Link
+	- curl -sSL alamat  => Mendownload file menggunakan cURL
+	- wget  => Mendownload file menggunakan wget
 ```
 
 # Tutorial ElementaryOS
