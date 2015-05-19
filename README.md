@@ -180,6 +180,11 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 ```
 
 # Tutorial Android
+#### ANDROID STUDIO
+```
+	- Error (android.support.v7.internal.widget.actionBarOverlay)
+		http://stackoverflow.com/questions/29195195/android-studio-rendering-problems-classes-could-not-be-found
+```
 #### Install GoogleApps di GenyMotions
 ```
 http://stackoverflow.com/questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
