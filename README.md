@@ -42,8 +42,9 @@ http://blog.andzhar.com/2014/12/11/152615/instalasi-composer-di-hhvm/
 http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
-
-#### Install Vagrant di Ubuntu :
+```
+### Install Vagrant di Ubuntu :
+```
 	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
 	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
 	di directory /var/www/html
@@ -66,8 +67,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		menjadi >> config.vm.box = "laravel/homestead";
 	- Done, terakhir tinggal menghidupkan vagrant yaitu dengan perintah :
 		vagrant up
-
-#### Setting Environment di Ubuntu :
+```
+### Setting Environment di Ubuntu :
+```
 	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka
 	untuk menambahkan environment yaitu dengan menambahkan perintah export
 	di .profile (/home/NAMA_USER/.profile) :
@@ -87,8 +89,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 			
 		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah
 		"source /etc/environment" (lagi-lagi tanpa tanda petik)
-		
-#### Install Oh-My-Zsh on ubuntu 14.04 :
+```	
+### Install Oh-My-Zsh on ubuntu 14.04 :
+```
 	- First of all, download zsh first with command "sudo apt-get install zsh"
 	- Then "sudo apt-get install git", because it need download source from github
 	- Then see https://github.com/robbyrussell/oh-my-zsh to Install (just the install)
@@ -98,8 +101,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		cd ~/.oh-my-zsh/themes/
 		git checkout d6a36b1 agnoster.zsh-theme
 	 Or try installing the fonts (All font in >>, just try https://github.com/nmfzone/fonts)
-		
-#### How to Add New Webserver in NginX
+```	
+### How to Add New Webserver in NginX
+```
 	$ sudo mkdir -p /var/www/example.com/html
 	$ sudo chown -R $USER:$USER /var/www/example.com/html
 	$ sudo chmod -R 755 /var/www
@@ -107,8 +111,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo nano /etc/nginx/sites-available/example.com
 	$ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 	$ sudo nano /etc/hosts (add new domain)
-	
-#### CHEATS SHEET *UNIX
+```	
+### CHEATS SHEET *UNIX
+```
 	- tar -xvzf nama_file.tgz  => Extract .tgz
 	- sudo su  => Masuk sebagai root (tapi sebaiknya jangan, lebih baik setiap jalankan command tambahkan sudo)
 	- ls -la  => Melihat ini List directory
@@ -119,9 +124,8 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 ```
 
 # Tutorial ElementaryOS
+### This to do after Installing Elementary OS :
 ```
-
-#### This to do after Installing Elementary OS :
 	- Download exstra plugin to play .mp3/.mp4
 		$ sudo apt-get install ubuntu-restricted-extras
 	- Install NginX and MySQL
@@ -164,8 +168,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		
 		if using firefox, you need to run this (before this, run xdman first with $ sudo xdman) :
 		http://localhost:9614/xdmff.xpi
-
-#### Shortcut Keys
+```
+## Shortcut Keys
+```
     Ctrl + T - Open a new tab in Files
     Ctrl + Alt + T – Starts terminal
     Alt + Tab - Switch between apps that are opened
@@ -174,7 +179,6 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
     Superkey + Tab – Switch between desktops (in order they are used)
     Superkey + directional arrows – Switch between desktops
     Superkey + 1,2,3,4,5 … – Switch between desktops
-
 ```
 
 #### Laravel :
