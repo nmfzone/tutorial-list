@@ -210,6 +210,13 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 http://stackoverflow.com/questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
 ```
 
+# Tutorial Polymer
+```
+	http://webkayq.blogspot.com/2014/07/cara-mudah-menginstall-nodejs-dan-bower.html
+	http://webkayq.blogspot.com/2014/07/cara-mudah-untuk-menginstall-polymer.html
+	https://www.polymer-project.org/0.5/docs/start/tutorial/intro.html
+```
+
 # Tutorial Website
 ```
 http://www.youtube.com/attribution_link?a=WkXjCu-8U6w&u=%2Fwatch%3Fv%3DobrHov9XfRk%26feature%3Dshare
