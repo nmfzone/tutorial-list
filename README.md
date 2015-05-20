@@ -157,6 +157,13 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		$ sudo add-apt-repository ppa:webupd8team/java
 		$ sudo apt-get install oracle-java8-installer
 		$ sudo apt-get install oracle-java8-set-default
+	- Install Download Manager (Like IDM in Windows) :
+		$ sudo add-apt-repository ppa:noobslab/apps
+		$ sudo apt-get update
+		$ sudo apt-get install xdman
+		
+		if using firefox, you need to run this :
+		http://localhost:9614/xdmff.xpi
 
 #### Shortcut Keys
     Ctrl + T - Open a new tab in Files
