@@ -43,7 +43,7 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 ```
-### Install Vagrant di Ubuntu :
+#### Install Vagrant di Ubuntu :
 ```
 	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
 	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
@@ -68,7 +68,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	- Done, terakhir tinggal menghidupkan vagrant yaitu dengan perintah :
 		vagrant up
 ```
-### Setting Environment di Ubuntu :
+#### Setting Environment di Ubuntu :
 ```
 	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka
 	untuk menambahkan environment yaitu dengan menambahkan perintah export
@@ -90,7 +90,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		kemudian agar supaya bisa berjalan secara langsung, refresh environment dengan perintah
 		"source /etc/environment" (lagi-lagi tanpa tanda petik)
 ```	
-### Install Oh-My-Zsh on ubuntu 14.04 :
+#### Install Oh-My-Zsh on ubuntu 14.04 :
 ```
 	- First of all, download zsh first with command "sudo apt-get install zsh"
 	- Then "sudo apt-get install git", because it need download source from github
@@ -102,7 +102,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		git checkout d6a36b1 agnoster.zsh-theme
 	 Or try installing the fonts (All font in >>, just try https://github.com/nmfzone/fonts)
 ```	
-### How to Add New Webserver in NginX
+#### How to Add New Webserver in NginX
 ```
 	$ sudo mkdir -p /var/www/example.com/html
 	$ sudo chown -R $USER:$USER /var/www/example.com/html
@@ -112,7 +112,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 	$ sudo nano /etc/hosts (add new domain)
 ```	
-### CHEATS SHEET *UNIX
+#### CHEATS SHEET *UNIX
 ```
 	- tar -xvzf nama_file.tgz  => Extract .tgz
 	- sudo su  => Masuk sebagai root (tapi sebaiknya jangan, lebih baik setiap jalankan command tambahkan sudo)
@@ -124,7 +124,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 ```
 
 # Tutorial ElementaryOS
-### This to do after Installing Elementary OS :
+#### Things to do after Installing Elementary OS :
 ```
 	- Download exstra plugin to play .mp3/.mp4
 		$ sudo apt-get install ubuntu-restricted-extras
@@ -169,7 +169,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		if using firefox, you need to run this (before this, run xdman first with $ sudo xdman) :
 		http://localhost:9614/xdmff.xpi
 ```
-## Shortcut Keys
+#### Shortcut Keys
 ```
     Ctrl + T - Open a new tab in Files
     Ctrl + Alt + T – Starts terminal
@@ -281,12 +281,16 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 ```
 ### Database
 #### MongoDB
+##### How to Install MongoDB on Ubuntu
 ```
-http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
 	$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 	$ echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 	$ sudo apt-get update
 	$ sudo apt-get install mongodb-org mongodb-org-server
+```
+##### MongoDB using NodeJs
+```
+	http://mongoosejs.com/docs/guide.html
 ```
 #### Postgree SQL
 ```
