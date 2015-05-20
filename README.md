@@ -255,9 +255,6 @@ a
 ### JavaScript
 #### NodeJs
 ```
-http://rizkylab.com/install-node-js-dan-mongodb-di-lubuntu-14-04/
-http://rizkylab.com/deploy-node-js-on-heroku/
-
 	- Install NodeJS
 		$ sudo apt-get install python-software-properties
 		$ sudo apt-add-repository ppa:chris-lea/node.js
@@ -265,6 +262,10 @@ http://rizkylab.com/deploy-node-js-on-heroku/
 		$ sudo apt-get install nodejs
 	- Install MongoDB (mongoose) untuk NodeJs :
 		$ sudo npm install mongoose
+		
+	Lets start making a simple Apps by using NodeJS :
+		http://tecadmin.net/setup-nodejs-with-mongodb-on-ubuntu/
+		http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
 ```
 #### AngularJs
 ```
