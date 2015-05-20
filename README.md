@@ -162,7 +162,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		$ sudo apt-get update
 		$ sudo apt-get install xdman
 		
-		if using firefox, you need to run this :
+		if using firefox, you need to run this (before this, run xdman first with $ sudo xdman) :
 		http://localhost:9614/xdmff.xpi
 
 #### Shortcut Keys
