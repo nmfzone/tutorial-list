@@ -335,9 +335,14 @@ test
 			
 		- Force Octave to open using GUI :
 			$ octave --force-gui
-	# Basic Command :
+			
+	# Basic Command Windows :
 		- clc    => clear the console
 		- clear  => delete the variable value
+		- hold on  => make all plots show in one figure
+		- delete(plot)  => unplot the selected plot
+		- clf  => clear the figure
+		- ctrl + c  => break the process
 	
 	# Basic Operation :
 		-  1:100   => 1 until 100 increments by 1
