@@ -317,10 +317,31 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 d
 ```
 
-# DesktopApps
+# Programming
 ### Java
 ```
 test
+```
+### Pascal
+```
+```
+### MATLAB / Octave
+```
+	# Terminal Command :
+		- Installing Octave on ubuntu :
+			$ sudo add-apt-repository ppa:octave/stable
+			$ sudo apt-get update
+			$ sudo apt install octave
+			
+		- Force Octave to open using GUI :
+			$ octave --force-gui
+	# Basic Command :
+		- clc    => clear the console
+		- clear  => delete the variable value
+	
+	# Basic Operation :
+		-  1:100   => 1 until 100 increments by 1
+		-  1:0.2:100  => 1 until 100 increments by 0.2
 ```
 
 # Tutorial WINDOWS
