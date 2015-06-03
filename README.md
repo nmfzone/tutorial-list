@@ -126,6 +126,8 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 # Tutorial ElementaryOS
 #### Things to do after Installing Elementary OS :
 ```
+	http://itsfoss.com/things-todo-elementary-os-freya/
+
 	- Download exstra plugin to play .mp3/.mp4
 		$ sudo apt-get install ubuntu-restricted-extras
 	- Install NginX and MySQL
