@@ -289,6 +289,13 @@ c
 http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 ```
 ### Database
+#### MySQL
+##### How to Allow DROP DATABASE
+```
+	Add this line in /etc/phpmyadmin/config.inc.php :
+		$cfg['AllowUserDropDatabase'] = TRUE;
+```
+
 #### MongoDB
 ##### How to Install MongoDB on Ubuntu
 ```
