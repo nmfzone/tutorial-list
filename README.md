@@ -358,6 +358,14 @@ test
 		-  1:0.2:100  => 1 until 100 increments by 0.2
 ```
 
+# Tutorial Webdeveloper Tools
+### Gulp
+```
+	- To stop gulp watch : CTRL+C (because watch is neverending proccess)
+	- Fix gulp watch error (ENOSPC) :
+		echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+
 # Tutorial WINDOWS
 ```
 Menghilangkan dan atau menambah context menu (saat klik kanan) :
