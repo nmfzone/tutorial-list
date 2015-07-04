@@ -337,17 +337,37 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 	http://mongoosejs.com/docs/guide.html
 ```
 #### Postgree SQL
+#### Install PostgreeSQL on Ubuntu
 ```
 	$ sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
 	$ wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
 	$ sudo apt-get update
-	$ sudo apt-get install postgresql-common
-	$ sudo apt-get install postgresql-9.3 libpq-dev
+	$ sudo apt-get install postgresql-common postgresql-9.3 libpq-dev
 	
 	Untuk setup username dan Password :
 	$ sudo -u postgres createuser your_username -s
 	$ sudo -u postgres psql
 	$ postgres=# \password your_username
+	
+	Untuk exit dari postgres=#, tekan CTRL+D atau \q kemudian enter
+	
+```
+#### Setting Up PGAdmin III (Like PHPMyAdmin on mysql)
+```
+	$ sudo apt-get install pgadmin3
+	
+	- Open PGAdmin3
+	- File -> Add Server
+	- Name	   : up_to_you
+	  Host	   : localhost
+	  Username : your_username
+	  Password : your_username_password
+	  
+```
+#### PostgreeSQL Query / Snippets Command
+```
+	- Add new Database :
+		$ sudo -u postgres createdb -O your_username new_database
 ```
 ### Next? 
 ```
