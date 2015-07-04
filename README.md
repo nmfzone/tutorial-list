@@ -249,6 +249,24 @@ a
 		export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 		[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 	- Install Ruby
+		Using rbenv :
+		cd
+		git clone git://github.com/sstephenson/rbenv.git .rbenv
+		echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+		echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+		exec $SHELL
+		
+		git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+		echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+		exec $SHELL
+		
+		git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+		
+		rbenv install 2.2.2
+		rbenv global 2.2.2
+		ruby -v
+	
+		Another Way :
 		$ rvm install ruby or $ rvm install 2.2.2
 		$ rvm use ruby --default (maybe will not work, you may use another way)
 			$ rvm list (see your ruby version that have been installed)
