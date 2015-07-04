@@ -25,10 +25,8 @@ Menghapus remote repo github :
 
 # Website Penting
 ```
-##### VPS
-https://koding.com/IDE/koding-vm-0/my-workspace
-##### HerokuApp
-https://dashboard.heroku.com/apps
+##### My VPS
+	https://www.riaucybersolution.net/member/clientarea.php
 ```
 
 # Tutorial UBUNTU
@@ -130,39 +128,51 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 
 	- Download exstra plugin to play .mp3/.mp4
 		$ sudo apt-get install ubuntu-restricted-extras
+		
 	- Install NginX and MySQL
 		$ sudo apt-get install nginx
 		$ sudo apt-get install mysql-server mysql-client
+		
 	- Install PHP, NPM, NodeJs, git, composer
 		PHP & Nginx : 
 			$ sudo add-apt-repository ppa:ondrej/php5
 			$ sudo apt-get install php5-fpm php5-cli php5-curl
+			
 		PHP Mcrypt (for Laravel or other) :
 			$ sudo apt-get install mcrypt php5-mcrypt
 			$ sudo php5enmod mcrypt
 			$ sudo service nginx restart
+			
 		NPM : 
 			$ sudo apt-get install npm
+			$ npm install -g npm (Update NPM to the newest version. If fails, try using sudo)
 			$ sudo ln -s /usr/bin/nodejs /usr/bin/node (command : node / nodejs)
+			$ node -v (If not the newest version, scroll down, and using the chris-lea repo)
+			
 		Composer :
 			$ curl -sS https://getcomposer.org/installer | php
 			$ sudo mv composer.phar /usr/bin/composer
+			
 		Git : 
 			$ sudo apt-get install git
+			
 	- Install Python and Pip
 		$ sudo add-apt-repository ppa:fkrull/deadsnakes
 		$ sudo apt-get install python3.3
 		$ sudo apt-get install python3.4
 		$ sudo apt-get install python-pip
+		
 	- Customize Terminal
 		- Enable 256 color xterm :
 			$ sudo apt-get install ncurses-term
 			$ vim ~/.bashrc OR $ vim ~/.zshrc
 			add export TERM="xterm-256color"
+			
 	- Install Java
 		$ sudo add-apt-repository ppa:webupd8team/java
 		$ sudo apt-get install oracle-java8-installer
 		$ sudo apt-get install oracle-java8-set-default
+		
 	- Install Download Manager (Like IDM in Windows) :
 		$ sudo add-apt-repository ppa:noobslab/apps
 		$ sudo apt-get update
