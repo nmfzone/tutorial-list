@@ -337,7 +337,7 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 	http://mongoosejs.com/docs/guide.html
 ```
 #### Postgree SQL
-#### Install PostgreeSQL on Ubuntu
+##### Install PostgreeSQL on Ubuntu
 ```
 	$ sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
 	$ wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
@@ -352,7 +352,7 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 	Untuk exit dari postgres=#, tekan CTRL+D atau \q kemudian enter
 	
 ```
-#### Setting Up PGAdmin III (Like PHPMyAdmin on mysql)
+##### Setting Up PGAdmin III (Like PHPMyAdmin on mysql)
 ```
 	$ sudo apt-get install pgadmin3
 	
@@ -364,7 +364,7 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 	  Password : your_username_password
 	  
 ```
-#### PostgreeSQL Query / Snippets Command
+##### PostgreeSQL Query / Snippets Command
 ```
 	- Add new Database :
 		$ sudo -u postgres createdb -O your_username new_database
