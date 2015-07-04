@@ -273,6 +273,11 @@ a
 			$ rvm alias create default ruby-2.2.2 (use ruby version 2.2.2 for default)
 	- Install Gems
 		$ rvm rubygems current
+		
+		If you're using ElementaryOS or maybe Ubuntu 14.04, by default you'll have gems installed :
+		Update first
+			$ gem install rubygems-update
+			$ sudo update_rubygems
 	- Install Rails
 		$ gem install rails or $ gem install rails -v 4.2.1 (to install specific version)
 		
