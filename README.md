@@ -231,6 +231,11 @@ a
 ```
 	https://gorails.com/setup/ubuntu/14.04
 	
+	First of All, install the dependencies first : 
+	$ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev
+			libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev
+			libcurl4-openssl-dev python-software-properties libffi-dev
+	
 	- Install RVM (you must Install cURL first) :
 		$ gpg --keyserver hkp://keys.gnupg.net --recv-keys
 		$ \curl -L https://get.rvm.io | bash -s stable
