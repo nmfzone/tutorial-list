@@ -417,6 +417,18 @@ test
 ```
 
 # Tutorial Webdeveloper Tools
+### Git
+##### Upgrade Git Version
+```
+	$ git clone git://git.kernel.org/pub/scm/git/git.git
+	$ tar -zxf git-2.0.0.tar.gz
+	$ cd git-2.0.0
+	$ make configure
+	$ ./configure --prefix=/usr
+	$ make all doc info
+	$ sudo make install install-doc install-html install-info
+```
+
 ### Gulp
 ```
 	- To stop gulp watch : CTRL+C (because watch is neverending proccess)
