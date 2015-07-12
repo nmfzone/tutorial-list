@@ -234,8 +234,13 @@ http://stackoverflow.com/questions/20121883/how-to-install-google-play-services-
 http://www.youtube.com/attribution_link?a=WkXjCu-8U6w&u=%2Fwatch%3Fv%3DobrHov9XfRk%26feature%3Dshare
 ```
 ### Laravel
+##### Troubleshooting Laravel ERROR
 ```
-a
+	- [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+	  http://johnshipp.com/php-artisan-migrate-laravel-5-pdoexception-sqlstatehy000-2002-no-such-file-or-directory-on-a-mac-using-mamp/
+	  
+	- No supported encrypter found. The cipher or key length are invalid
+	  https://www.devside.net/wamp-server/laravel-no-supported-encrypter-found-the-cipher-or-key-length-are-invalid
 ```
 ### Ruby on Rails
 ```
