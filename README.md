@@ -120,6 +120,12 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	- curl -sSL alamat  => Mendownload file menggunakan cURL
 	- wget  => Mendownload file menggunakan wget
 ```
+#### Install Slack Client in Ubuntu
+```
+	$ sudo apt-add-repository -y ppa:rael-gc/scudcloud
+	$ sudo apt-get update
+	$ sudo apt-get install scudcloud
+```
 
 # Tutorial ElementaryOS
 #### Things to do after Installing Elementary OS :
