@@ -131,7 +131,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo fallocate -l 4G /swapfile
 	$ sudo chmod 600 /swapfile
 	$ sudo mkswap /swapfile
-	$ sudo swapon /swapfile   // finish
+	$ sudo swapon /swapfile
+	$ sudo vim /etc/fstab
+		/swapfile   none    swap    sw    0   0    // Add this at the end of line 
 	$ sudo swapon -s   // check
 	$ free -m   // check
 ```
