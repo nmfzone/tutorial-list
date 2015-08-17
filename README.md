@@ -126,6 +126,15 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo apt-get update
 	$ sudo apt-get install scudcloud
 ```
+#### SettingUp Swap in Ubuntu 14.04 that have been Installed
+```
+	$ sudo fallocate -l 4G /swapfile
+	$ sudo chmod 600 /swapfile
+	$ sudo mkswap /swapfile
+	$ sudo swapon /swapfile   // finish
+	$ sudo swapon -s   // check
+	$ free -m   // check
+```
 
 # Tutorial ElementaryOS
 #### Things to do after Installing Elementary OS :
