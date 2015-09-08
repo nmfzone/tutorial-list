@@ -356,6 +356,10 @@ http://rizkylab.com/membuat-crud-dengan-ext-js-4/
 ```
 ### Database
 #### MySQL
+##### How to Install
+```
+	$ sudo apt-get install mysql-server mysql-client
+```
 ##### How to Allow DROP DATABASE
 ```
 	Add this line in /etc/phpmyadmin/config.inc.php :
@@ -414,8 +418,44 @@ d
 
 # Programming
 ### Java
+##### How to Install
 ```
-test
+	$ sudo add-apt-repository ppa:webupd8team/java
+        $ sudo apt-get install oracle-java8-installer
+        $ sudo apt-get install oracle-java8-set-default
+```
+##### How to Use
+```
+	- Create a file in somewhere, e.g. in Home (~) directory, with the exstension .java
+	- Create a file named e.g. Hello.java, then write some code (yeaay) in those file
+	  REMEMBER!! Class name and file name must use the same name  :)))
+	- Now, we need to Compile it. Before that, go to the dir. where you've been save the file.
+		$ cd ~			// e.g. I've been save the file in Home (~) directory
+		$ javac Hello.java	// If success, it will produce nothing
+	- In the last, we need to run the program by using this command :
+		$ java Hello
+```
+### Python
+##### How to Install
+```
+	Very very simple to Install Python, just follow instruction in this links :
+	https://github.com/yyuu/pyenv-installer
+	
+	--- OR ---
+	
+	You can also use this instruction :
+		$ sudo apt-get install python-software-properties
+		$ sudo add-apt-repository ppa:fkrull/deadsnakes
+		$ sudo apt-get update
+		$ sudo apt-get install python3.4	// OR you can choose specific version
+```
+##### How to Use
+```
+	- Create a file in somewhere, e.g. in Home (~) directory, with the exstension .py
+	- Create a file named e.g. Coba.py, then write some code (yeaay) in those file
+	  REMEMBER!! Python2 and Python3 have a different syntaks
+	- Now, let's run the program by using this command :
+		$ python3 Coba.py	// OR you can choose python version that you'll use
 ```
 ### Pascal
 ```
