@@ -421,8 +421,8 @@ d
 ##### How to Install
 ```
 	$ sudo add-apt-repository ppa:webupd8team/java
-        $ sudo apt-get install oracle-java8-installer
-        $ sudo apt-get install oracle-java8-set-default
+	$ sudo apt-get install oracle-java8-installer
+	$ sudo apt-get install oracle-java8-set-default
 ```
 ##### How to Use
 ```
@@ -439,7 +439,7 @@ d
 ##### How to Install
 ```
 	Very very simple to Install Python, just follow instruction in this links :
-	https://github.com/yyuu/pyenv-installer
+	https://github.com/yyuu/pyenv
 	
 	--- OR ---
 	
