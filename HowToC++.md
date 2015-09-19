@@ -1,5 +1,5 @@
 # How to use C++
-# As Windows Users
+## As Windows Users
 
 
-# As Linux Users
+## As Linux Users
