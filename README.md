@@ -275,7 +275,7 @@ http://www.youtube.com/attribution_link?a=WkXjCu-8U6w&u=%2Fwatch%3Fv%3DobrHov9Xf
 			libcurl4-openssl-dev python-software-properties libffi-dev
 	
 	- Install RVM (you must Install cURL first) :
-		$ gpg --keyserver hkp://keys.gnupg.net --recv-keys
+		$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 		$ \curl -L https://get.rvm.io | bash -s stable
 		$ cd ~/.rvm/archieve
 		$ tar -xvzf your_rvm_version.tgz
