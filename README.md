@@ -25,8 +25,7 @@ Menghapus remote repo github :
 
 # Website Penting
 ```
-##### My VPS
-	https://www.riaucybersolution.net/member/clientarea.php
+##### 
 ```
 
 # Tutorial UBUNTU
@@ -136,6 +135,12 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 		/swapfile   none    swap    sw    0   0    // Add this at the end of line 
 	$ sudo swapon -s   // check
 	$ free -m   // check
+```
+
+# Tutorial Setup VPS
+```
+##### Merubah timezone di Ubuntu VPS 14.04
+	sudo timedatectl set-timezone America/New_York
 ```
 
 # Tutorial ElementaryOS
