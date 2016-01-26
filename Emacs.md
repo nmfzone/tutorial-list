@@ -5,6 +5,8 @@
 
 `M-x` mean press `Alt` and then `x` in your keyboard.
 
+`RET` mean press `Enter` in your keyboard
+
 ## Shortcut
 Shortcut | Description
 --- | ---
