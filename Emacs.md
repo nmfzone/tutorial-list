@@ -1,9 +1,7 @@
 # Guide to use Emacs
 
 ## Key Notation
-```
-[References](http://www.emacswiki.org/emacs/EmacsKeyNotation)
-```
+See [References](http://www.emacswiki.org/emacs/EmacsKeyNotation)
 
 Key | Description
 ---- | ----
