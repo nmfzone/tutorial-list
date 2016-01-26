@@ -5,6 +5,7 @@ This guides is for ElementaryOS. Maybe will also work in another operating syste
 
 ## Shortcut
 Command | Description
+--------|--------
 Ctrl + Shift + T | Open new tab in current terminal window
 Ctrl + Shift + N | Open new terminal window
 Ctrl + Shift + F | Open terminal search field
