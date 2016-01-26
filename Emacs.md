@@ -2,6 +2,7 @@
 
 # Introduction
 `C-x` mean press `Ctrl` and then `x` in your keyboard.
+
 `M-x` mean press `Alt` and then `x` in your keyboard.
 
 # Shortcut
