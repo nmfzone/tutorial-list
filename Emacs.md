@@ -22,8 +22,8 @@ C-x 3 | Split window Vertically (release `C-x` and then press 3, quickly)
 C-x 2 | Split window Horizontally
 C-x 1 | Delete all other window
 M-x | To start type emacs command by name
-
-> * Emacs version 23+ or maybe by change the settings
-
+```
+* Emacs version 23+ or maybe by change the settings
+```
 ## Important
 This guides tested in GNU Emacs version 24.3.1 in ElementaryOS Freya
