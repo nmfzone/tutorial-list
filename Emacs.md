@@ -49,6 +49,6 @@ package-install |  | To start install package
 This guides tested in GNU Emacs version 24.3.1 in ElementaryOS Freya
 
 ## References
-[1] http://www.math.uh.edu/~bgb/emacs_keys.html
-[2] http://www.emacswiki.org/emacs/EmacsKeyNotation
+[1] http://www.math.uh.edu/~bgb/emacs_keys.html<br>
+[2] http://www.emacswiki.org/emacs/EmacsKeyNotation<br>
 [3] http://www.emacswiki.org/emacs/SwitchingBuffers
