@@ -50,7 +50,7 @@ This guides tested in GNU Emacs version 24.3.1 in ElementaryOS Freya
 
 ## References
 [1] http://www.math.uh.edu/~bgb/emacs_keys.html<br>
-[2] https://www.cs.colostate.edu/helpdocs/emacs-bindings
-[3] http://www.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
+[2] https://www.cs.colostate.edu/helpdocs/emacs-bindings<br>
+[3] http://www.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html<br>
 [4] http://www.emacswiki.org/emacs/EmacsKeyNotation<br>
 [5] http://www.emacswiki.org/emacs/SwitchingBuffers
