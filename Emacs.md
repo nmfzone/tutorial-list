@@ -1,8 +1,6 @@
 # Guide to use Emacs
 
 ## Key Notation
-See [References](http://www.emacswiki.org/emacs/EmacsKeyNotation)
-
 Key | Description
 ---- | ----
 C- | Its mean press `Ctrl` and then `x` in your keyboard.
@@ -49,3 +47,8 @@ package-install |  | To start install package
 
 ## Important
 This guides tested in GNU Emacs version 24.3.1 in ElementaryOS Freya
+
+## References
+[1] http://www.math.uh.edu/~bgb/emacs_keys.html
+[2] http://www.emacswiki.org/emacs/EmacsKeyNotation
+[3] http://www.emacswiki.org/emacs/SwitchingBuffers
