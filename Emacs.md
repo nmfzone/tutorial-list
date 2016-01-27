@@ -19,18 +19,18 @@ C-x C-s	|  | Save your files in current buffer
 C-x C-f |  | Open new file
 C-x C-c |  | Exit from emacs
 C-g |  | Abort any command (hold `Ctrl` a bit longer)
---- | --- | ---
+. | . | .
 C-c |  | Copy *
 C-/ |  | Undo
 C-/ C-/ |  | Redo (type any character first before)
 C-v |  | Paste *
 C-x h |  | Select All
 C-k |  | Delete all character in single line (place cursor in beginning of text)
- |  | 
+. | . | .
 C-x C-b |  | Display buffer lists
 C-x k |  | Kill current buffer
 C-x Left and C-x Right |  | Move to another buffer
- |  | 
+. | . | .
 C-x o |  | Move cursor to another window
 C-x 3 |  | Split window Vertically (release `C-x` and then press 3, quickly)
 C-x 2 |  | Split window Horizontally
