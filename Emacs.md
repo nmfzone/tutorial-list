@@ -13,23 +13,24 @@ DEL | Its mean press `Backspace` in your keyboard
 SPC | Its mean press `Space` in your keyboard
 
 ## Shortcut
-Shortcut | Description
+Shortcut | Alternative | Description
 --- | ---
-C-x C-s	| Save your files in current buffer/window
-C-x C-f | Open new file
-C-x C-c | Exit from emacs
-C-c | Copy *
-C-/ | Undo
-C-/ C-/ | Redo (type any character first before)
-C-v | Paste *
-C-x h | Select All
-C-k | Delete all character in single line (place cursor in beginning of text)
-C-x o | Move cursor to another window/buffer
-C-x 3 | Split window Vertically (release `C-x` and then press 3, quickly)
-C-x 2 | Split window Horizontally
-C-x 1 | Delete all other window
-M-f10 | Open Emacs menu bar
-M-x | To start type emacs command by name
+C-x C-s	|  | Save your files in current buffer/window
+C-x C-f |  | Open new file
+C-x C-c |  | Exit from emacs
+C-g |  | Abort any command (hold `Ctrl` a bit longer)
+C-c |  | Copy *
+C-/ |  | Undo
+C-/ C-/ |  | Redo (type any character first before)
+C-v |  | Paste *
+C-x h |  | Select All
+C-k |  | Delete all character in single line (place cursor in beginning of text)
+C-x o |  | Move cursor to another window/buffer
+C-x 3 |  | Split window Vertically (release `C-x` and then press 3, quickly)
+C-x 2 |  | Split window Horizontally
+C-x 1 |  | Delete all other window
+M-x |  | To start type emacs command by name
+S-f10 | ESC-` | Open Emacs menu bar
 ```
 * Emacs version 23+ or maybe by change the settings
 ```
