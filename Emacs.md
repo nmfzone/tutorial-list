@@ -27,7 +27,7 @@ C-k |  | Delete all character in single line (place cursor in beginning of text)
 . | . | .
 C-x C-b |  | Display buffer lists
 C-x k |  | Kill current buffer
-C-x Left and C-x Right |  | Move to another buffer
+C-x Left and C-x Right | C-x b | Move to another buffer
 . | . | .
 C-x o |  | Move cursor to another window
 C-x 3 |  | Split window Vertically (release `C-x` and then press 3, quickly)
@@ -50,5 +50,7 @@ This guides tested in GNU Emacs version 24.3.1 in ElementaryOS Freya
 
 ## References
 [1] http://www.math.uh.edu/~bgb/emacs_keys.html<br>
-[2] http://www.emacswiki.org/emacs/EmacsKeyNotation<br>
-[3] http://www.emacswiki.org/emacs/SwitchingBuffers
+[2] https://www.cs.colostate.edu/helpdocs/emacs-bindings
+[3] http://www.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
+[4] http://www.emacswiki.org/emacs/EmacsKeyNotation<br>
+[5] http://www.emacswiki.org/emacs/SwitchingBuffers
