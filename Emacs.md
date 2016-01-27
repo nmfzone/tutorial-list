@@ -14,7 +14,7 @@ SPC | Its mean press `Space` in your keyboard
 
 ## Shortcut
 Shortcut | Alternative | Description
---- | ---
+-------- | ----------- | -----------
 C-x C-s	|  | Save your files in current buffer/window
 C-x C-f |  | Open new file
 C-x C-c |  | Exit from emacs
