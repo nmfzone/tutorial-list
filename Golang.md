@@ -25,3 +25,10 @@ Symbol | Description
 ```
 Scanf() doesnt like getline() in C++ or nextLine() in Java
 ```
+
+## Troubleshooting Errors
+##### no new variables on left side of :=
+[Reference](http://stackoverflow.com/questions/13329154/golang-no-new-variables-on-left-side-of)
+Because use you use `:=` instead of `=` or vice versa.
+Remember, `:=` is shorthand for declaration and initialization. If you just need to initialization,
+use `=`.
