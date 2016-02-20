@@ -6,7 +6,6 @@ In this section, i will show you how to use PHP, configure and many others in th
 #### Using IDE
 #### Using Terminal
 ### Install Multiple PHP Version
-```
 Tools
 1. Install [rbenv](https://github.com/rbenv/rbenv) (Ruby Tool)
 2. Install [phpenv](https://github.com/CHH/phpenv)
