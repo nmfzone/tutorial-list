@@ -1,8 +1,8 @@
 # Guide to use Vim
 
 ## Shortcut Keys
-Keys | Plugins/Other | Description
----- | ------------- | -----------
+Keys | Additional | Description
+---- | ---------- | -----------
 C-w w | | Cycle between windows
 C-w h | | Move to the left window
 C-w k | | Move to the top window
@@ -19,16 +19,18 @@ C-s | | Search text in window
 . | . | .
 u | (Use in ESC Mode)  | Undo
 C-f | | Re-indent line
-m | NerdTree | Open NerdTree options menu
+m | NERDTree Plugin | Open NERDTree options menu
 
 ## Commands
 Command | Additional | Description
 ------- | ---------- | -----------
-q | | Close active window
-q! | | Force Close
-qa | | Close All Windows
-qa! | | Force Close All Windows
-wq | | Save file
+:q | | Close active window
+:q! | | Force close
+:qa | | Close all windows
+:qa! | | Force close all windows
+:wq | | Save file
+:sp filename | | Split window horizontally and open that file
+:vsp filename | | Split window vertically and open that file
 
 ## Customize Vim
 Makes your Vim looks elegant. Like you're using expensive IDE.
