@@ -158,7 +158,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	- Install PHP, NPM, NodeJs, git, composer
 		PHP & Nginx : 
 			$ sudo add-apt-repository ppa:ondrej/php5
-			$ sudo apt-get install php5-fpm php5-cli php5-curl
+			$ sudo apt-get install php5-fpm php5-cli php5-curl php5-mysql
 			
 		PHP Mcrypt (for Laravel or other) :
 			$ sudo apt-get install mcrypt php5-mcrypt
