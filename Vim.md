@@ -16,8 +16,11 @@ C-w - | | Decrease height of current window by 1 line
 C-w _ | | Maximise height of current window
 `C-w |` | | Maximise width of current window
 C-s | | Search text in window
+C-z | | Suspended Vim Window
+fg | | Return from Suspended
 . | . | .
-u | (Use in ESC Mode)  | Undo
+u | ESC Mode  | Undo
+C-r | ESC Mode | Redo
 C-f | | Re-indent line
 m | NERDTree Plugin | Open NERDTree options menu
 
@@ -28,7 +31,8 @@ Command | Additional | Description
 :q! | | Force close
 :qa | | Close all windows
 :qa! | | Force close all windows
-:wq | | Save file
+:wq | | Save file and close window
+:wq! | | Force save and clole all windows
 :sp filename | | Split window horizontally and open that file
 :vsp filename | | Split window vertically and open that file
 
