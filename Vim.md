@@ -18,10 +18,13 @@ C-w _ | | Maximise height of current window
 C-s | | Search text in window
 C-z | | Suspended Vim Window
 fg | | Return from Suspended
-. | . | .
-u | ESC Mode  | Undo
-C-r | ESC Mode | Redo
+. | <Text Customization> | .
+u | In Normal Mode  | Undo
+C-r | In Normal Mode | Redo
 C-f | | Re-indent line
+v | Run Visual Mode | Block Multiple Lines
+<< | In Visual Mode | Shift Indentation Left
+>> | In Visual Mode | Shift Indentation Right
 m | NERDTree Plugin | Open NERDTree options menu
 
 ## Commands
