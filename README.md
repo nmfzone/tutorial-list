@@ -136,6 +136,12 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ sudo swapon -s   // check
 	$ free -m   // check
 ```
+#### Change Disk UUID
+```
+	$ sudo apt install uuid
+	$ uuid
+	$ sudo tune2fs /dev/{device} -U {uuid}	// Change to the appropriate value
+```
 
 # Tutorial Setup VPS
 ```
