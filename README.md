@@ -219,6 +219,8 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
     Superkey + Tab – Switch between desktops (in order they are used)
     Superkey + directional arrows – Switch between desktops
     Superkey + 1,2,3,4,5 … – Switch between desktops
+    Ctrl + Super (fn/windows) + left/right - Make app to left / right side
+    (http://askubuntu.com/questions/179136/how-do-i-put-two-windows-side-by-side-12-04)
 ```
 
 #### Laravel :
