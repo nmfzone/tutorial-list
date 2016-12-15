@@ -28,6 +28,80 @@ Menghapus remote repo github :
 ##### 
 ```
 
+# Tutorial ElementaryOS
+#### Things to do after Installing Elementary OS :
+```
+	http://itsfoss.com/things-todo-elementary-os-freya/
+
+	- Download exstra plugin to play .mp3/.mp4
+		$ sudo apt-get install ubuntu-restricted-extras
+		
+	- Install NginX and MySQL
+		$ sudo apt-get install nginx
+		$ sudo apt-get install mysql-server mysql-client
+		
+	- Install PHP, NodeJs, Git, Composer
+		PHP & Nginx : 
+			$ sudo add-apt-repository ppa:ondrej/php
+			$ sudo apt-get install php7.0 php7.0-fpm php7.0-curl php7.0-mysql php7.0-common php7.0-mbstring php7.0-mcrypt php7.0-xml
+			
+		Node Js : 
+			Install NVM first : https://github.com/creationix/nvm
+		then
+			$ nvm ls-remote (check available nodejs version)
+			$ nvm install 6.9.2 (example install version 6.9.2)
+			$ nvm alias default 6.9.2
+			
+		Composer :
+			$ curl -sS https://getcomposer.org/installer | php
+			$ sudo mv composer.phar /usr/bin/composer
+			
+		Git : 
+			$ sudo apt-get install git
+			
+	- Install Python and Pip
+		$ sudo add-apt-repository ppa:fkrull/deadsnakes
+		$ sudo apt-get install python3.3
+		$ sudo apt-get install python3.4
+		$ sudo apt-get install python-pip
+		
+	- Customize Terminal
+		- Enable 256 color xterm :
+			$ sudo apt-get install ncurses-term
+			$ vim ~/.bashrc OR $ vim ~/.zshrc
+			add export TERM="xterm-256color"
+			
+	- Install Java
+		$ sudo add-apt-repository ppa:webupd8team/java
+		$ sudo apt-get install oracle-java8-installer
+		$ sudo apt-get install oracle-java8-set-default
+		
+	- Install Download Manager (Like IDM in Windows) :
+		$ sudo add-apt-repository ppa:noobslab/apps
+		$ sudo apt-get update
+		$ sudo apt-get install xdman
+		
+		if using firefox, you need to run this (before this, run xdman first with $ sudo xdman) :
+		http://localhost:9614/xdmff.xpi
+```
+#### Shortcut Keys
+```
+    Ctrl + T - Open a new tab in Files
+    Ctrl + Alt + T – Starts terminal
+    Alt + Tab - Switch between apps that are opened
+    Superkay + A – Show all windows on every desktop
+    Superkey + W – Show all windows on the current desktop
+    Superkey + Tab – Switch between desktops (in order they are used)
+    Superkey + directional arrows – Switch between desktops
+    Superkey + 1,2,3,4,5 … – Switch between desktops
+    
+    Ctrl + Super (fn/windows) + left/right - Make app to left / right side
+    (http://askubuntu.com/questions/179136/how-do-i-put-two-windows-side-by-side-12-04)
+    
+    Ctrl + Alt + Shift + left/right - Move app to another workspace
+    (http://askubuntu.com/questions/100773/how-do-i-move-applications-from-one-workspace-to-another)
+```
+
 # Tutorial UBUNTU
 ```
 http://www.unixmen.com/install-lemp-server-nginx-mysql-mariadb-php-phpmyadmin-ubuntu-14-1014-0413-10/
@@ -40,31 +114,7 @@ http://culttt.com/2013/06/17/setting-up-vagrant-with-laravel-4/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 ```
-#### Install Vagrant di Ubuntu :
-```
-	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
-	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
-	di directory /var/www/html
-	- Kemudian berpindah ke direktory tersebut (cd Project)
-	- Kemudian download vagrant dengan menggunakan perintah :
-		vagrant box add laravel/homestead
-	- Selagi menunggu download selesai, kita beralih misal ke terminal yang lain. Masih di directory
-	yang sama seperti tadi. Ketikkan perintah :
-		git clone git@github.com:laravel/homestead.git Homestead
-	- Kemudian, setelah selesai mendownload, ketikkan perintah :
-		homestead init
-		ssh-keygen -t rsa -C "youremail@email.com"
-	- Setelah itu beralihlah (defaultnya) ke ~/.homestead kemudian buka Homestead.yaml. Kemudian
-	atur authorize, keys, folders dan sites.
-	- Kemudian beralih ke direktori awal yaitu direktori project anda tadi
-	(cd /var/www/html/Project) kemudian ketikkan perintah :
-		vagrant init
-	- Setelah itu buka Vagrantfile (vim Vagrantfile), setelah itu rubah :
-		dari >> config.vm.box = "base";
-		menjadi >> config.vm.box = "laravel/homestead";
-	- Done, terakhir tinggal menghidupkan vagrant yaitu dengan perintah :
-		vagrant up
-```
+
 #### Setting Environment di Ubuntu :
 ```
 	- Jika dalam keadaan biasa (belum login), maka lokasi environment berada di /home/NAMA_USER/ , maka
@@ -142,6 +192,31 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	$ uuid
 	$ sudo tune2fs /dev/{device} -U {uuid}	// Change to the appropriate value
 ```
+#### Install Vagrant di Ubuntu :
+```
+	>>>>> https://scotch.io/tutorials/getting-started-with-laravel-homestead
+	- Buat sebuah folder terserah, misalnya dengan nama Project (mkdir Project)
+	di directory /var/www/html
+	- Kemudian berpindah ke direktory tersebut (cd Project)
+	- Kemudian download vagrant dengan menggunakan perintah :
+		vagrant box add laravel/homestead
+	- Selagi menunggu download selesai, kita beralih misal ke terminal yang lain. Masih di directory
+	yang sama seperti tadi. Ketikkan perintah :
+		git clone git@github.com:laravel/homestead.git Homestead
+	- Kemudian, setelah selesai mendownload, ketikkan perintah :
+		homestead init
+		ssh-keygen -t rsa -C "youremail@email.com"
+	- Setelah itu beralihlah (defaultnya) ke ~/.homestead kemudian buka Homestead.yaml. Kemudian
+	atur authorize, keys, folders dan sites.
+	- Kemudian beralih ke direktori awal yaitu direktori project anda tadi
+	(cd /var/www/html/Project) kemudian ketikkan perintah :
+		vagrant init
+	- Setelah itu buka Vagrantfile (vim Vagrantfile), setelah itu rubah :
+		dari >> config.vm.box = "base";
+		menjadi >> config.vm.box = "laravel/homestead";
+	- Done, terakhir tinggal menghidupkan vagrant yaitu dengan perintah :
+		vagrant up
+```
 
 # Tutorial Setup VPS
 ```
@@ -149,83 +224,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hos
 	sudo timedatectl set-timezone America/New_York
 ```
 
-# Tutorial ElementaryOS
-#### Things to do after Installing Elementary OS :
-```
-	http://itsfoss.com/things-todo-elementary-os-freya/
-
-	- Download exstra plugin to play .mp3/.mp4
-		$ sudo apt-get install ubuntu-restricted-extras
-		
-	- Install NginX and MySQL
-		$ sudo apt-get install nginx
-		$ sudo apt-get install mysql-server mysql-client
-		
-	- Install PHP, NPM, NodeJs, git, composer
-		PHP & Nginx : 
-			$ sudo add-apt-repository ppa:ondrej/php5
-			$ sudo apt-get install php7.0 php7.0-fpm php7.0-curl php7.0-mysql php7.0-common php7.0-mbstring php7.0-mcrypt php7.0-xml
-			
-		PHP Mcrypt (for Laravel or other) :
-			$ sudo apt-get install mcrypt php5-mcrypt
-			$ sudo php5enmod mcrypt
-			$ sudo service nginx restart
-			
-		NPM : 
-			$ sudo apt-get install npm
-			$ npm install -g npm (Update NPM to the newest version. If fails, try using sudo)
-			$ sudo ln -s /usr/bin/nodejs /usr/bin/node (command : node / nodejs)
-			$ node -v (If not the newest version, scroll down, and using the chris-lea repo)
-			
-		Composer :
-			$ curl -sS https://getcomposer.org/installer | php
-			$ sudo mv composer.phar /usr/bin/composer
-			
-		Git : 
-			$ sudo apt-get install git
-			
-	- Install Python and Pip
-		$ sudo add-apt-repository ppa:fkrull/deadsnakes
-		$ sudo apt-get install python3.3
-		$ sudo apt-get install python3.4
-		$ sudo apt-get install python-pip
-		
-	- Customize Terminal
-		- Enable 256 color xterm :
-			$ sudo apt-get install ncurses-term
-			$ vim ~/.bashrc OR $ vim ~/.zshrc
-			add export TERM="xterm-256color"
-			
-	- Install Java
-		$ sudo add-apt-repository ppa:webupd8team/java
-		$ sudo apt-get install oracle-java8-installer
-		$ sudo apt-get install oracle-java8-set-default
-		
-	- Install Download Manager (Like IDM in Windows) :
-		$ sudo add-apt-repository ppa:noobslab/apps
-		$ sudo apt-get update
-		$ sudo apt-get install xdman
-		
-		if using firefox, you need to run this (before this, run xdman first with $ sudo xdman) :
-		http://localhost:9614/xdmff.xpi
-```
-#### Shortcut Keys
-```
-    Ctrl + T - Open a new tab in Files
-    Ctrl + Alt + T – Starts terminal
-    Alt + Tab - Switch between apps that are opened
-    Superkay + A – Show all windows on every desktop
-    Superkey + W – Show all windows on the current desktop
-    Superkey + Tab – Switch between desktops (in order they are used)
-    Superkey + directional arrows – Switch between desktops
-    Superkey + 1,2,3,4,5 … – Switch between desktops
-    
-    Ctrl + Super (fn/windows) + left/right - Make app to left / right side
-    (http://askubuntu.com/questions/179136/how-do-i-put-two-windows-side-by-side-12-04)
-    
-    Ctrl + Alt + Shift + left/right - Move app to another workspace
-    (http://askubuntu.com/questions/100773/how-do-i-move-applications-from-one-workspace-to-another)
-```
+## NginX Settings
 
 #### Laravel :
 ```
