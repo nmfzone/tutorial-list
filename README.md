@@ -43,7 +43,7 @@ Menghapus remote repo github :
 	- Install PHP, NodeJs, Git, Composer
 		PHP & Nginx : 
 			$ sudo add-apt-repository ppa:ondrej/php
-			$ sudo apt-get install php7.0 php7.0-fpm php7.0-curl php7.0-mysql php7.0-common php7.0-mbstring php7.0-mcrypt php7.0-xml
+			$ sudo apt-get install php7.1 php7.1-fpm php7.1-curl php7.1-mysql php7.1-common php7.1-mbstring php7.1-mcrypt php7.1-xml
 			
 		Node Js : 
 			Install NVM first : https://github.com/creationix/nvm
