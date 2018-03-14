@@ -7,7 +7,7 @@ SET NAMES utf8mb4
 SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
 ```
 
-and make `~/.my.cnf` with the following:
+and make `~/.my.cnf` (linux in `/etc/mysql/my.cnf`) with the following:
 
 ```
 [client]
