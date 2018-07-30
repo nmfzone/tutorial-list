@@ -21,7 +21,7 @@ fg | | Return from Suspended
 . | Text Customization | .
 u | In Normal Mode  | Undo
 C-r | In Normal Mode | Redo
-C-f | | Re-indent line
+C-f | . | Re-indent line
 v | Run Visual Mode | Block Multiple Lines
 << | In Visual Mode | Shift Indentation Left
 >> | In Visual Mode | Shift Indentation Right
@@ -31,14 +31,14 @@ m | NERDTree Plugin | Open NERDTree options menu
 ## Commands
 Command | Additional | Description
 ------- | ---------- | -----------
-:q | | Close active window
-:q! | | Force close
-:qa | | Close all windows
-:qa! | | Force close all windows
-:wq | | Save file and close window
-:wq! | | Force save and clole all windows
-:sp filename | | Split window horizontally and open that file
-:vsp filename | | Split window vertically and open that file
+:q | . | Close active window
+:q! | . | Force close
+:qa | . | Close all windows
+:qa! | . | Force close all windows
+:wq | . | Save file and close window
+:wq! | . | Force save and clole all windows
+:sp filename | . | Split window horizontally and open that file
+:vsp filename | . | Split window vertically and open that file
 
 ## Customize Vim
 Makes your Vim looks elegant. Like you're using expensive IDE.
