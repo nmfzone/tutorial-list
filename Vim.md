@@ -1,5 +1,11 @@
 # Guide to use Vim
 
+## Basic
+
+Keys | Description
+---- | -----------
+`C` | It means press `Control`
+
 ## Shortcut Keys
 Keys | Additional | Description
 ---- | ---------- | -----------
@@ -31,14 +37,14 @@ Keys | Additional | Description
 ## Commands
 Command | Additional | Description
 ------- | ---------- | -----------
-:q | . | Close active window
-:q! | . | Force close
-:qa | . | Close all windows
-:qa! | . | Force close all windows
-:wq | . | Save file and close window
-:wq! | . | Force save and clole all windows
-:sp filename | . | Split window horizontally and open that file
-:vsp filename | . | Split window vertically and open that file
+`:q` | . | Close active window
+`:q!` | . | Force close
+`:qa` | . | Close all windows
+`:qa!` | . | Force close all windows
+`:wq` | . | Save file and close window
+`:wq!` | . | Force save and clole all windows
+`:sp filename` | . | Split window horizontally and open that file
+`:vsp filename` | . | Split window vertically and open that file
 
 ## Customize Vim
 Makes your Vim looks elegant. Like you're using expensive IDE.
