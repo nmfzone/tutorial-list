@@ -3,30 +3,30 @@
 ## Shortcut Keys
 Keys | Additional | Description
 ---- | ---------- | -----------
-C-w w | | Cycle between windows
-C-w h | | Move to the left window
-C-w k | | Move to the top window
-C-w l | | Move to the right window
-C-w j | | Move to the bottom window
-C-w s | | Split window horizontally
-C-w v | | Split window vertically
-C-w q | | Close current window
-C-w + | | Increase height of current window by 1 line
-C-w - | | Decrease height of current window by 1 line
-C-w _ | | Maximise height of current window
-`C-w |` | | Maximise width of current window
-C-s | | Search text in window
-C-z | | Suspended Vim Window
-fg | | Return from Suspended
+`C-w w` | . | Cycle between windows
+`C-w h` | . | Move to the left window
+`C-w k` | . | Move to the top window
+`C-w l` | . | Move to the right window
+`C-w j` | . | Move to the bottom window
+`C-w s` | . | Split window horizontally
+`C-w v` | . | Split window vertically
+`C-w q` | . | Close current window
+`C-w +` | . | Increase height of current window by 1 line
+`C-w -` | . | Decrease height of current window by 1 line
+`C-w _` | . | Maximise height of current window
+<code>C-w &#124;</code> | . | Maximise width of current window
+`C-s` | . | Search text in window
+`C-z` | . | Suspended Vim Window
+`fg` | . | Return from Suspended
 . | Text Customization | .
-u | In Normal Mode  | Undo
-C-r | In Normal Mode | Redo
-C-f | . | Re-indent line
-v | Run Visual Mode | Block Multiple Lines
-<< | In Visual Mode | Shift Indentation Left
->> | In Visual Mode | Shift Indentation Right
+`u` | In Normal Mode  | Undo
+`C-r` | In Normal Mode | Redo
+`C-f` | . | Re-indent line
+`v` | Run Visual Mode | Block Multiple Lines
+`<<` | In Visual Mode | Shift Indentation Left
+`>>` | In Visual Mode | Shift Indentation Right
 . | Others | .
-m | NERDTree Plugin | Open NERDTree options menu
+`m` | NERDTree Plugin | Open NERDTree options menu
 
 ## Commands
 Command | Additional | Description
